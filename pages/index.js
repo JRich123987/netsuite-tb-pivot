@@ -2,10 +2,10 @@
 import { useState } from "react";
 
 const SUBSIDIARY_ORDER = [
-  "Ava Labs",
-  "Antarctica",
+  "Ava Labs, Inc.",
+  "Antarctica, Inc.",
   "AVL Services LLC",
-  "AVL Canada",
+  "AVL Canada, Inc.",
   "AVL Services (Cayman) SEZC",
   "Karilanche LLC",
   "TMLOC, LLC",
