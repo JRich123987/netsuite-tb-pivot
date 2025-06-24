@@ -65,7 +65,8 @@ export default function Home() {
 
       const output = [["Account", ...SUBSIDIARY_ORDER, "Total"]];
 
-      for (const acct of Object.keys(pivot)) {
+      for (const acct of Object.keys(pivot).sort()) {
+
         const row = [acct];
         let total = 0;
         for (const sub of SUBSIDIARY_ORDER) {
